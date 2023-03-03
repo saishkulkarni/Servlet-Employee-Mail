@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Employee Details</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./front.css">
+</head>
+<body>
+	<div class="container">
+		<img class="image" alt="Logo"
+			src="https://th.bing.com/th/id/R.5256c642a0cb0b91d9bb9bb6d87c9a2d?rik=Hc%2bFlegpIuRF8A&riu=http%3a%2f%2fbldeacet.ac.in%2fwp-content%2fuploads%2f2020%2f11%2fTriwits-Logo-300x101-200x67.png&ehk=esGXlke9JyfYhmyAAPJJwV4uSBkm7HmAjRo9Fu%2bBydA%3d&risl=&pid=ImgRaw&r=0">
+		<span class="title"><h1>Employee Registation</h1></span>
+		<form method="POST" action="save" enctype="multipart/form-data">
+			<div class="fields">
+				<div class="input-field">
+					<label>Candidate Name</label> <input type="text"
+						placeholder="Enter your name" name="name" id="name" required>
+				</div>
+				<div class="input-field">
+					<label>Mobile Number</label> <input type="number"
+						placeholder="Enter Mobile Number" name="mobile" id="mobile"
+						required>
+				</div>
+				<div class="input-field">
+					<label>Email Id</label> <input type="text"
+						placeholder="Enter your email" name="email" id="email" required>
+				</div>
+				<div class="input-field">
+					<label>Upload The Resume</label> <input type="file"
+						placeholder="Enter mobile number" name="resume" id="resume"
+						required>
+				</div>
+			</div>
+			<button class="nextBtn">
+				<span class="btnText">Submit</span>
+			</button>
+		</form>
+		<p>
+				<a href="fetchAll"><button>View Employee</button></a>
+			</p>
+	</div>
+</body>
+</html>
